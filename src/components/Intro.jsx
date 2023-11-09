@@ -18,9 +18,9 @@ const Intro = () => {
         </div>
         <div className="intro__text">
           <div className="text">
-            <div>talent is</div>
-            <div>found at the end of the</div>
-            <div>effort</div>
+            <div>{introText.desc[0]}</div>
+            <div>{introText.desc[1]}</div>
+            <div>{introText.desc[2]}</div>
           </div>
           <div className="img">
             <img src={about} alt="어바웃" />
