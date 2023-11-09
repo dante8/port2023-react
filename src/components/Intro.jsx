@@ -1,5 +1,5 @@
 import React from "react";
-
+import { introText } from "../constants";
 import about from "../assets/img/about.jpg";
 
 const Intro = () => {
